@@ -3,8 +3,8 @@
 const sayHello = (hello = 'Hello' , world = 'World!') => console.log(`${hello} ${world}`);
 sayHello();
 //task2
-const hello = `Hello `;
-const world = `World`;
+const hello = 'Hello ';
+const world = 'World';
 console.log(...hello, ...world);
 
 // ex. 2
